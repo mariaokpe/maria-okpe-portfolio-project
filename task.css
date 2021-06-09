@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #555555;
+    color: white;
+}
+ .parent{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 10rem;
+    margin-right: 20rem;
+    margin-top: 4rem;
+} 
+.black_background{
+    height: 400px;
+    width: 50%;
+    background: black;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    border-radius: 5px;
+}
+
+h2{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px; 
+    border: 1px solid gray;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    padding-top: 5px;
+    color: #808080;
+}
+
+  .list-item{
+      margin-top: 20px;
+      padding: 20px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  /* this is a horizontal line of a list item */
+  li {
+    /* float: right; */
+    display: inline;
+    position: relative;
+    left: 55%;
+  }
+  
+  li a {
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .underline{
+    text-decoration: underline;
+    font-weight: 900;
+    color: whitesmoke;
+  }
+  .left-paragraph{
+      width: 250px;
+      position: relative;
+      top: 18vh;
+      left: 1vw;
+      margin-top: 10px;
+  }
+  .big-image {
+      width: 60%;
+      height: 65%;
+      position: absolute;
+      left: 20rem;
+      top: 6rem;
+  }
+  h3, p{
+      margin: 10px;
+      
+  }
+  p{
+    color: gray;  
+  }
+  /* .black-bg{
+      background-color: teal;
+      height: 100px;
+      width: 100px;
+      margin-left: 30%;
+  } */
+  #green_background{
+      background-color: brown;
+      box-shadow: 5px 5px #107e3483;
+      width: 300px;
+      height: 150px;
+      margin-left: 45%;
+      position: relative;
+      top: 220px;
+      margin-bottom: 40px;
+  }
+  .small-image{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-left: 0px;
+}
+
+.left_content{
+    display: inline-flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#top{
+    
+    /* width: 30px;
+    height: 30px; */
+    line-height: 1.2rem;
+    word-spacing: 0em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.one{
+    /* padding-left: 10px; */
+    /* display: block; */
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: Verdana;
+    text-transform: capitalize;
+}
+.two{
+    /* padding-left: 10px; */
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 10px;
+    font-family: Verdana;
+    text-transform: capitalize;
+}

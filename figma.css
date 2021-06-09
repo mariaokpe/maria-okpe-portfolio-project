@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    transition: all ease;
+    padding: 30px;
+    }
+
+.container{
+    height: 90vh;
+    width: 95vw;
+    background: #000;
+    margin: auto;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+
+.nav-list{
+    display: inline-block;
+    overflow:  hidden;
+    height: 50px;
+    width: 100%;
+
+}
+ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li a{
+    color: gray;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+li{
+    display: inline;
+    text-align: right;
+    position: relative;
+    left: 40%;
+    
+}
+.underline{
+    text-decoration: underline;
+    font-weight: 900;
+    color: whitesmoke;
+  }
+.left{
+    width: 100px;
+    position: relative;
+    left: 10px;
+    top: 13px;
+    color: gray;
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid gray;
+    text-align: center;
+}
+img{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+.left-paragraph{
+    width: 200px;
+    float: left;
+    position: relative;
+    top: 180px;
+    left: 30px;
+    color: red;
+}
+h3, p{
+    margin-bottom: 25px;
+}
+p{
+    color: gray;
+    font-size: 13px;
+}
+h3 {
+    color: #ffffff;
+}
+.second-black{
+    background: purple;
+    height: 20vh;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .center_image{
+    background: black;
+    position: fixed;
+    top: 60%;
+    left: 35%;
+    width: 18%;
+    height: 150px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: ;
+}
+.small-image {
+    position: absolute;
+    left: 4px;
+    top: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#inside{
+    display: block;
+    text-align: left;
+    margin-left: 65px;
+    padding-top: 10px;
+}
+.big-text{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.small-text{
+    text-transform: lowercase;
+    font-size: 12px;
+}
+#last-text{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.footer{
+    text-align: center;
+    color: white;
+    margin-top: 600px;
+    /* margin-left: 100px; */
+}
+@media screen  and(max-width: 550px) {
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1,2fr 1fr;
+        grid-template-areas: 
+        "nav-link"
+        "underline"
+        "ul"
+        "li"
+        "a"
+        "left"
+        "img"
+        "left-paragraph"
+        "footer"
+        "last-text"
+        "big-tex"
+        "h3"
+        "p"
+        "second-black"
+        "center_image";
+    }
+    
+}   

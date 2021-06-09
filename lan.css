@@ -1,0 +1,188 @@
+*{
+  padding: 0;
+  margin: 0;
+   box-sizing: border-box;
+  /* background-image: linear-gradient(to right, maroon, white, green, blue, indigo, violet); */ */
+  color: #000;
+  
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #eee;
+  /* background-image: url("https://www.schemecolor.com/wallpaper?i=3838&desktop"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+  /* background-image: url("http://www.belatrixsf.com/images/New_Office_Expansion_in_Lima.jpg"); */
+}
+#header-img img {
+  width: 30px;
+  width: 300px;
+  margin: 20px;
+  padding-left: 20px;
+}
+#nav-bar .nav-left {
+  display: inline;
+  float: right;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 65px;
+  margin-top: 20px;
+  /* color: #000; */
+  opacity: 0.9;
+  
+}
+.middle {
+  text-align: center;
+}
+
+input[type="email"] {
+  width: 18%;
+  padding-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  width: 120px;
+  height: 30px;
+  background-color: #f1c40f;
+  border: 0;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+}
+.center {
+  position: relative;
+  left: 30%;
+  font-size: small;  
+}
+
+#icon{
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-rows: 2px 2px 2px;
+  padding-bottom: 0px;
+  margin-top: 20px;
+ }
+ .fa,
+ .fas {
+   position: absolute;
+   left: 22%;
+   margin-top: 30px;
+   color: orange;
+ }
+ .video {
+   text-align: center;
+   margin-top: 100px
+ }
+ .bold-text{
+   font-weight: 800;
+ }
+ 
+   
+ #pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  text-align: center;
+  width: calc(50% / 3);
+  margin: 10px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: #ddd;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+  padding: 10px;
+  width: 40%;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.product > button:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #800000;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  opacity: 1;
+}
+.last {
+  position: absolute;
+  text-align: right;
+  border: #fff 1px;
+  width: 53%;
+  margin-left: 350px;
+  background-position: center;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #ffffff;
+  margin-bottom: 10px;
+}

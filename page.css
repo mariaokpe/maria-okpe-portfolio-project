@@ -1,0 +1,77 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"); */
+
+*,html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  min-width: 290px;
+  line-height: 1.fr;
+  /* background-color: #2196F3; */
+  font-family: 'Lobster Two', cursive;
+  
+}
+#header {
+  margin-left: 40px;
+  margin-top: 0px;
+  padding-top: 20PX;
+  font-size: 25px;
+}
+.menu-bar  li, a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+  text-align: left;
+  margin-top: 20px;
+  font-weight: transparent;
+  border-top: 1px solid;
+  padding-top: 50px;
+  max-height: min-content;
+  
+}
+.menu-bar {
+  border-right: 5px solid crimson;
+  border-left-width: 1px solid;
+  position: relative;
+  left: 0px;
+
+}
+
+
+.menu-section{
+  position:fixed;
+  height: 100vh;
+  width:300px;
+  padding: 3em;
+  background-image: url("https://lh3.googleusercontent.com/proxy/lt-Q9oFbF22RlZwbsMuICG8TUP3pThpr8QCtKUG-5VJ1vd2k7edzxrkrmfTN414XS2k4EfwJqglUxERB67fjtd55d-YHZctyS_D4Ne4s_NHzMgxupOsV4KuIctaTj_PLbostbJipTkYpOX8e7ixChrbFR85kt6AnmzehywmH");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+
+.page-content{
+  height: 100vh;
+  width:auto;
+  padding:4em;
+  margin-left:400px;
+  line-height: 25px;
+  /* background: rgb(100,100,100); */
+  /* background: rgba(0,0,0,0.1); */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKRISX0-53X1S9bt_06TlRjTAviHDRmsVSmg&usqp=CAU");
+  background-repeat: no-repeat;
+  /* background-position: center;
+   */
+   background-position: bottom;
+}
+.menu-section li a {
+  padding-bottom: 40px;
+  font-style: italic;
+  font-weight: bold; or
+  font-weight: lighter;
+  padding-bottom:
+}
