@@ -71,10 +71,11 @@ nav{
 }
 .left-col img{
     width: 80%;
+    /* height: 40%; */
     cursor: pointer;
     filter: grayscale(0);
     transition: filter 1s;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 .left-col img:hover{
     filter: grayscale(1);
